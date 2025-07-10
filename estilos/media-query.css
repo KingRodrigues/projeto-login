@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+/* Configurações para Tablet */
 @media screen and (min-width: 768px)  and (max-width: 992px) {
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
@@ -7,6 +9,7 @@
 
     #login {
         width: 80vw;
+        height: 280px;
     }
 
     #login #imagem {
@@ -21,6 +24,8 @@
     }
 }
 
+/* Configurações para desktop+ */
+
 @media screen and (min-width: 992px) {
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
@@ -28,6 +33,7 @@
 
     #login {
         width: 990px;
+        height: 350px;
     }
 
     #login #imagem {
@@ -46,6 +52,7 @@
     }
 
     #formulario p {
-    font-size: 1.2em;
+    font-size: 1em;
+    margin: 20px 0px;
 }
 }
